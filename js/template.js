@@ -81,7 +81,7 @@ var formatNPSUrl = function(t, url){
 
 var boardButtonCallback = function(t){
   return t.popup({
-    title: 'Popup List Example',
+    title: 'Archive Old Completed Cards',
     items: [
       {
         text: 'Open Overlay',
@@ -192,7 +192,7 @@ TrelloPowerUp.initialize({
   'board-buttons': function(t, options){
     return [{
       icon: WHITE_ICON,
-      text: 'Template',
+      text: 'Archive Old Cards',
       callback: boardButtonCallback
     }];
   },
